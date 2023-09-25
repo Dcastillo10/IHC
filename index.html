@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Responsive Layout</title>
+    <title>Visit Monterrey</title>
     <link rel="stylesheet" href="./src/style.css" />
     <link
       rel="stylesheet"
@@ -12,7 +12,7 @@
 
     <style>
       .carousel-item img {
-        height: 20rem;
+        height: 28rem;
       }
 
       .center-content {
@@ -38,19 +38,34 @@
         padding-inline-start: 50%;
       }
 
-      .jumbotron {
+      .p{
+        font-size: 25px;
+      }
+
+      .histo{
+        padding-top: 100px;
+      }
+
+      .imgs{
+        height: 200px;
+      }
+
+      .divcard{
+        padding-top: 75px;
+      }
+
+      /* .jumbotron {
         padding-inline-start: 10%;
         padding-inline-end: 10%;
-      }
+      } */
 
       
     </style>
   </head>
   <body>
-    <!-- EQUIPO: Castillo Aguilar Diego y Jorge Alfredo Delgado Anguiano -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary"  >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
       <div class="container">
-        <a class="navbar-brand">Bootstrap</a>
+        <a class="navbar-brand">Monterrey</a>
         <div class="flex-row-reverse">
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,9 +92,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link " >+5555 55555</a>
               </li>
             </ul>
           </div>
@@ -112,36 +124,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="./img/a1.jpg" alt="First slide" />
+          <img class="d-block w-100 " src="./img/a33.jpg" alt="Imagen del cerro de la silla" />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Titulo Uno</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis fugit quae et expedita ipsam quas libero quis velit
-              deserunt vitae.
-            </p>
+            <h1>Cerro de la Silla</h1>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="./img/a2.jpg" alt="Second slide" />
+          <img class="d-block w-100" src="./img/a11a.jpg" alt="Imagen de los edificios de Monterrey por la noche" />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Titulo Dos</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              aut veniam minus fugit velit voluptas accusamus labore, hic ea
-              molestiae?
-            </p>
+            <h1>La ciudad por la noche</h1>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="./img/ii1.webp" alt="Third slide" />
+          <img class="d-block w-100" src="./img/a3.jpg" alt="Imagen de la macroplaza" />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Titulo Tres</h5>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-              vitae deserunt perspiciatis saepe corporis, soluta exercitationem
-              accusantium ut at illum.
-            </p>
+            <h1>Macroplaza</h1>
           </div>
         </div>
       </div>
@@ -165,62 +162,61 @@
       </a>
     </div>
 
-    <div class="center-content">
-      <h1>Lorem ipsum dolor</h1>
-      <p class="text-info">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
-        consequatur eaque at quae officia recusandae expedita porro a doloribus
-        itaque, laboriosam maxime praesentium impedit. Iure in tenetur
-        perspiciatis placeat illum!
+    <div class="center-content histo">
+      <h1>Historia</h1>
+      <p class="text-dark p">
+        Monterrey, una ciudad ubicada en el noreste de México, 
+        tiene sus raíces en el año 1596 cuando fue fundada por el explorador español Diego de Montemayor. 
+        Con el tiempo, creció gracias a la minería y la industria textil, convirtiéndose en un importante centro económico. 
       </p>
 
+      <img src="img/montemayor.jpg">
 
-      <div class="row row-cards d-flex justify-content-center">
+      <!-- CARDS -->
+
+      <div class="row row-cards d-flex justify-content-center divcard">
         <div class="card-container col-8 col-sm-8 col-md-6 col-lg-4" style="padding-bottom: 10px;">
           <div class="card">
-            <img src="img/img-1.jpg" class="card-img-top" alt="..." />
+            <img src="img/airbnb.png" class="card-img-top imgs" alt="Imagen de un hotel" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h2 class="card-title">¿Dónde hospedarse?</h2>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Encuentra tu hospedaje ideal.
               </p>
-              <a class="btn btn-info">Go somewhere</a>
+              <a class="btn btn-info">IR</a>
             </div>
           </div>
         </div>
 
         <div class="card-container col-8 col-sm-8 col-md-6 col-lg-4" style="padding-bottom: 10px;">
           <div class="card">
-            <img src="img/a3.jpeg" class="card-img-top" alt="..." />
+            <img src="img/avion2.webp" class="card-img-top imgs" alt="imagen de aerolineas de méxico" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h2 class="card-title">¿Cómo llegar?</h2>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                La mejor manera de llegar a esta mágica ciudad.
               </p>
-              <a class="btn btn-info">Go somewhere</a>
+              <a class="btn btn-info">IR</a>
             </div>
           </div>
         </div>
 
         <div class="card-container col-8 col-sm-8 col-md-6 col-lg-4" style="padding-bottom: 10px;">
           <div class="card">
-            <img src="img/img-3.jpg" class="card-img-top" alt="..." />
+            <img src="img/fundidora.jpg" class="card-img-top imgs" alt="imagen de museo horno 3 en parque fundidora" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h2 class="card-title">Actividades</h2>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Actividades por hacer en Monterrey.
               </p>
-              <a class="btn btn-info">Go somewhere</a>
+              <a class="btn btn-info">IR</a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="jumbotron">
+    <!-- <div class="jumbotron">
       <h1 class="display-4">Hello, world!</h1>
       <p class="lead">
         This is a simple hero unit, a simple jumbotron-style component for
@@ -358,7 +354,7 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
-            <div class="card" ">
+            <div class="card" >
               <img
                 class="card-img-top"
                 src="img/img-2.jpg"
@@ -377,17 +373,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <footer class="center-content bg-dark">
       <p
         class="text-white"
         style="padding-inline-start: 10%; padding-inline-end: 10%"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-        veniam suscipit vel reprehenderit voluptatem! Unde nesciunt nemo,
-        mollitia possimus accusamus eligendi praesentium, sunt esse blanditiis
-        vel recusandae, excepturi corporis tempore!
+        Página web creada por Diego Castillo Aguilar. 2023
       </p>
     </footer>
     <!-- Optional JavaScript -->
