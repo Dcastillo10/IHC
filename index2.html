@@ -34,6 +34,8 @@
         margin-top: auto;
       }
 
+      table
+
       .cosas {
         padding-inline-start: 50%;
       }
@@ -59,7 +61,13 @@
         padding-inline-end: 10%;
       } */
 
-      
+      td{
+        padding: 10px;
+      }
+
+      .tables{
+        margin-bottom: 50px;
+      }
     </style>
   </head>
   <body>
@@ -77,7 +85,7 @@
                   <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index2.html">Curiosidades</a>
+                  <a class="nav-link" href="index2.html">CURIOSIDADES</a>
                 </li>
               </ul>
             </div>
@@ -89,16 +97,48 @@
         <div>
             <h1>Datos curiosos</h1>
         </div>
-        <div>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore consectetur itaque nam quis suscipit quae inventore voluptatem aliquid optio doloremque voluptate minus quas modi expedita facilis debitis culpa cum nulla autem labore, dolor laborum alias. Consequatur asperiores iste mollitia pariatur expedita? Quas sit architecto ab obcaecati, excepturi praesentium dicta molestiae?
-            </p>
+        <div class="tables">
+            <h1>Curiosidades de Monterrey</h1>
+            <table border=5>
+                <tr>
+                    <th>Curiosidad</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>Fundación</td>
+                    <td>Monterrey fue fundada el 20 de septiembre de 1596.</td>
+                </tr>
+                <tr>
+                    <td>Topografía</td>
+                    <td>La ciudad está rodeada de montañas, incluyendo el Cerro de la Silla y el Cerro de las Mitras.</td>
+                </tr>
+                <tr>
+                    <td>Industria</td>
+                    <td>Monterrey es conocida como la "Ciudad Industrial" de México debido a su fuerte presencia en la industria y manufactura.</td>
+                </tr>
+                <tr>
+                    <td>Palacio de Gobierno</td>
+                    <td>El Palacio de Gobierno de Nuevo León es un edificio histórico que data del siglo XVIII.</td>
+                </tr>
+                <tr>
+                    <td>Parque Fundidora</td>
+                    <td>El Parque Fundidora es un parque urbano construido en el sitio de una antigua fundición de acero.</td>
+                </tr>
+                <tr>
+                    <td>Clima</td>
+                    <td>Monterrey tiene un clima extremadamente cálido en verano, con temperaturas que pueden superar los 40 grados Celsius.</td>
+                </tr>
+                <tr>
+                    <td>Cultura</td>
+                    <td>La ciudad es famosa por su escena cultural, que incluye el Museo de Arte Contemporáneo y el Teatro de la Ciudad.</td>
+                </tr>
+                <tr>
+                    <td>Gastronomía</td>
+                    <td>Monterrey es conocida por su deliciosa comida, especialmente los tacos de carne asada y las cabritas al pastor.</td>
+                </tr>
+            </table>
         </div>
-        
-
     </div>
-    
-
     <footer class="center-content bg-dark">
       <p
         class="text-white"
@@ -107,6 +147,7 @@
         Página web creada por Diego Castillo Aguilar. 2023
       </p>
     </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
